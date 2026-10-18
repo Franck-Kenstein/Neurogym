@@ -1,3 +1,21 @@
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getAuth } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+  import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDjbM1SjCwbXF8b-4kymcU_Vke1Xx-W0XM",
+    authDomain: "neurogym-6bbdf.firebaseapp.com",
+    projectId: "neurogym-6bbdf",
+    storageBucket: "neurogym-6bbdf.firebasestorage.app",
+    messagingSenderId: "375188270657",
+    appId: "1:375188270657:web:2663af8dfc2c4e4a3020c0"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  window.auth = getAuth(app);
+  window.db = getFirestore(app);
+</script>
 <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>NeuroGym – Entrena tu cerebro</title>
 <style>
 :root{--bg:#eef3f4;--c:#fff;--t:#14262b;--m:#587077;--p:#0f766e;--b:#d5e1e3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
