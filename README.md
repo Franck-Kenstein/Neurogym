@@ -1,6 +1,6 @@
 # NeuroGym – Entrenamiento cerebral
 
-App web (PWA) con 112 juegos y 5 niveles de dificultad (560 ejercicios) para entrenar memoria, velocidad, atención, lenguaje, lógica, flexibilidad mental, cálculo, visoespacial y multitarea. Funciona sin internet y guarda tu progreso en el navegador con perfiles de usuario, récords, logros y ranking local (puntajes, racha, historial por juego).
+App web (PWA) con 370 juegos y 5 niveles de dificultad (1350 ejercicios) para entrenar memoria, velocidad, atención, lenguaje, lógica, flexibilidad mental, cálculo, visoespacial y multitarea y auditiva. Funciona sin internet y guarda tu progreso en el navegador con perfiles de usuario, récords, logros y ranking local (puntajes, racha, historial por juego).
 
 **Creada y diseñada por Francisco Javier Torres Vélez.** © 2026. Todos los derechos reservados (ver `LICENSE`).
 
@@ -32,3 +32,5 @@ Arrastra esta carpeta completa a https://app.netlify.com/drop (mejor con cuenta 
 - Esta app es de entrenamiento y entretenimiento; no es una herramienta médica.
 - Sincronización entre dispositivos (opcional): en Mi perfil → Sincronizar, con un proyecto gratuito de Firebase (plan Spark, sin tarjeta): Authentication por correo + Firestore con reglas por usuario. Para no escribir apiKey y projectId en cada dispositivo, ponlos en la constante `FBC` al inicio del bloque de sincronización de `index.html`. No funciona dentro de claude.ai.
 - Dificultad adaptativa (botón en la pantalla de inicio): ajusta el nivel de cada juego según tus resultados. Se puede saltar cualquier juego y elegir categorías o juegos concretos, en orden o al azar.
+
+~~~~~~
