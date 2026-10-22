@@ -1,6 +1,6 @@
 # NeuroGym – Entrenamiento cerebral
 
-App web (PWA) con 370 juegos y 5 niveles de dificultad (1350 ejercicios) para entrenar memoria, velocidad, atención, lenguaje, lógica, flexibilidad mental, cálculo, visoespacial y multitarea y auditiva. Funciona sin internet y guarda tu progreso en el navegador con perfiles de usuario, récords, logros y ranking local (puntajes, racha, historial por juego).
+App web (PWA) con 410 juegos y 5 niveles de dificultad (1350 ejercicios) para entrenar memoria, velocidad, atención, lenguaje, lógica, flexibilidad mental, cálculo, visoespacial y multitarea y auditiva. Funciona sin internet y guarda tu progreso en el navegador con perfiles de usuario, récords, logros y ranking local (puntajes, racha, historial por juego).
 
 **Creada y diseñada por Francisco Javier Torres Vélez.** © 2026. Todos los derechos reservados (ver `LICENSE`).
 
